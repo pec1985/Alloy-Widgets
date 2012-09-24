@@ -1,0 +1,25 @@
+<Alloy>
+	<View id="main_view">
+		<View class="spacer" />
+ 		<View class="row">
+			<Button class="button" onClick="onKeyPressed">1</Button>
+			<Button class="button" onClick="onKeyPressed">2</Button>
+			<Button class="button" onClick="onKeyPressed">3</Button>
+		</View>
+		<View class="row">
+			<Button class="button" onClick="onKeyPressed">4</Button>
+			<Button class="button" onClick="onKeyPressed">5</Button>
+			<Button class="button" onClick="onKeyPressed">6</Button>
+		</View>
+		<View class="row">
+			<Button class="button" onClick="onKeyPressed">7</Button>
+			<Button class="button" onClick="onKeyPressed">8</Button>
+			<Button class="button" onClick="onKeyPressed">9</Button>
+		</View>
+		<View class="row">
+			<View class="button"></View>
+			<Button class="button" onClick="onKeyPressed">0</Button>
+			<Button class="button" id="del" onClick="onKeyPressed" />
+		</View>
+</View>
+</Alloy>

@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Button onClick="openChat">Chat</Button>
+		<Button onClick="openLockScreen">Lock Screen</Button>
+	</Window>
+</Alloy>

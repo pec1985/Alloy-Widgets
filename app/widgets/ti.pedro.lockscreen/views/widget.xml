@@ -1,0 +1,7 @@
+<Alloy>
+	<Window onFocus="onWindowFocus" onOpen="onWindowOpen">
+		<View id="main_view">
+		</View>
+		<TextField id="hidden_text_field" onChange="onTextFieldChange" />
+	</Window>
+</Alloy>

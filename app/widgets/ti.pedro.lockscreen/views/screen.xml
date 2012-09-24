@@ -1,0 +1,14 @@
+<Alloy>
+	<View id="mainView">
+		<View id="header">
+			<Label id="title" class="message"/>
+			<Label id="panic" class="message" />
+		</View>
+		<View class="passcode">
+			<TextField class="box" id="box1"/>
+			<TextField class="box" id="box2"/>
+			<TextField class="box" id="box3"/>
+			<TextField class="box" id="box4"/>
+		</View>
+	</View>
+</Alloy>

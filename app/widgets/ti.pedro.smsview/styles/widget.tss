@@ -1,0 +1,40 @@
+"Window" : {
+	backgroundColor: 'white'
+},
+"Window[platform=android]" : {
+	windowSoftInputMode:Titanium.UI.Android.SOFT_INPUT_ADJUST_RESIZE
+},
+"#textfield_bar" : {
+	bottom: '0dp',
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	backgroundColor: '#ddd',
+	layout: 'horizontal'
+},
+"#textfield" : {
+	left: '5dp',
+	top: '5dp',
+	bottom: '5dp',
+	width: Ti.UI.FILL,
+	font: {
+		fontSize: '18dp'
+	},
+	scrollable:false,
+	suppressReturn: false,
+	height: Ti.UI.SIZE
+},
+"#send_button" : {
+	left: '5dp',
+	right: '5dp',
+	height: Ti.UI.SIZE,
+	title: L('send_button', 'Send')
+},
+".field_view" : {
+	width: '75%',
+	height: Ti.UI.SIZE
+},
+".button_view" : {
+	bottom: '5dp',
+	width: '25%',
+	height: Ti.UI.SIZE
+}

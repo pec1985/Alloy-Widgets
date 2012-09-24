@@ -1,0 +1,9 @@
+"Window" : {
+	layout: 'vertical'
+},
+"Button" : {
+	left: '20dp',
+	right: '20dp',
+	top: '50dp',
+	height: Ti.UI.SIZE
+}

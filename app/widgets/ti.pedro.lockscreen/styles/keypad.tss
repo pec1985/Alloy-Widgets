@@ -1,0 +1,25 @@
+"#main_view" : {
+	bottom: 0,
+	height: '245dp',
+	width: Ti.UI.FILL,
+	backgroundColor:'#333333',
+	layout: 'vertical'
+},
+".spacer" : {
+	height: '5dp',
+	width: Ti.UI.FILL,
+},
+".row" : {
+	left: '1%',
+	height: '60dp',
+	width: Ti.UI.FILL,
+	layout: 'horizontal'
+},
+".button" : {
+	width: "33%",
+	height: Ti.UI.FILL,
+	font: {
+		fontSize: '25dp',
+		fontWeight: 'bold'
+	}
+}

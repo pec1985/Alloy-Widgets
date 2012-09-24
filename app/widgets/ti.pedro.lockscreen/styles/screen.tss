@@ -1,0 +1,43 @@
+"Label" : {
+	color: 'black'	
+},
+"#mainView" : {
+	layout: 'vertical'
+},
+"#header" : {
+	width: Ti.UI.FILL,
+	height: '100dp'
+},
+"#title" : {
+	text: 'TITLE'
+},
+"#panic" :{
+	opacity: 0,
+	text: 'PANIC',
+	backgroundColor: 'red'
+},
+".message" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	font: {
+		fontSize: '20dp',
+		fontWeight: 'bold'
+	},
+	textAlign: 'center'
+},
+".passcode" : {
+	width: Ti.UI.FILL,
+	backgroundColor: 'navy'
+},
+".box" : {
+		font: { fontSize: '20dp', fontWeight: "bold" },
+		textAlign: "center",
+		top: '40dp',
+		width: '50dp',
+		height: '50dp',
+		color: "#000",
+		backgroundColor: "#FFF",
+		passwordMask: true,
+		enabled: false,
+		borderStyle: Ti.UI.INPUT_BORDERSTYLE_BEZEL
+}

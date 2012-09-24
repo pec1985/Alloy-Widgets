@@ -1,0 +1,44 @@
+"TableViewRow" : {
+	height: Ti.UI.SIZE,
+	backgroundColor: 'white',
+	className: 'message_row'
+},
+"#avatar" : {
+	width: '65dp',
+	height: '65dp',
+	top: '25dp',
+	bottom: '5dp',
+	left: '5dp',
+	image: '/ti.pedro.smsview/avatar.jpg'
+},
+"#message" : {
+	height: Ti.UI.SIZE,
+	top: '20dp',
+	left: '75dp',
+	right: '5dp',
+	color: 'black',
+	font: {
+		fontSize: '18dp'
+	}
+},
+"#name" : {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	top: '0dp',
+	left: '5dp',
+	color: 'black',
+	font: {
+		fontSize: '18dp',
+		fontWeight: 'bold'
+	}
+},
+"#date" : {
+	height: Ti.UI.SIZE,
+	top: '0dp',
+	right: '5dp',
+	width: Ti.UI.SIZE,
+	color: '#333',
+	font: {
+		fontSize: '16dp'
+	}
+}

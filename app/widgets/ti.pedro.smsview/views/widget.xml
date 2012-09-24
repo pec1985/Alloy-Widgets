@@ -1,0 +1,19 @@
+<Alloy>
+	<Window fullscreen="false">
+		<TableView id="message_view">
+		</TableView>
+		<!--		View that holds the textfield and button
+				Needs to be separated into two view for the button 
+				to look good
+		-->
+		<View id="textfield_bar">
+			
+			<View class="field_view">
+				<TextArea id="textfield" />
+			</View>
+			<View class="button_view">
+				<Button id="send_button" />
+			</View>
+		</View>
+	</Window>
+</Alloy>

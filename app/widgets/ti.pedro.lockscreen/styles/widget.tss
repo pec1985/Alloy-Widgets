@@ -1,0 +1,11 @@
+"Window" : {
+	fullscreen: false,
+	backgroundColor: '#ccc'
+},
+"#hidden_text_field" : {
+	bottom: 100,
+	keyboardType: Ti.UI.KEYBOARD_NUMBER_PAD
+},
+"#main_view" : {
+	left: 0
+}
