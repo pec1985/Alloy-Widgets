@@ -6,7 +6,7 @@
 	"os:ios": {}, 
 	"os:android": {}, 
 	"dependencies": {
-		"ti.pedro.smsview": "1.0",
+		"ti.pedro.chatwindow": "1.0",
 		"ti.pedro.lockscreen": "1.0"
 	}
 }

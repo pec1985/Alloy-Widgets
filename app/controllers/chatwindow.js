@@ -1,23 +1,24 @@
 var self = {};
 
-var SMSWindow = $.widget;
-var win = SMSWindow.getWindow();
+var ChatWindow = $.widget;
+var win = ChatWindow.getWindow();
 
-SMSWindow.setDelegate(self);
+ChatWindow.setDelegate(self);
 
 self.onSendButtonClick = function(message){
-	SMSWindow.createMessage({
-		avatar: '/ti.pedro.smsview/me.jpg',
+	ChatWindow.createMessage({
+		avatar: '/ti.pedro.chatwindow/me.jpg',
 		name: 'Me',
+		message: message,
 		message: message,
 		data: new Date()
 	});
-	SMSWindow.clearTextfield();
+	ChatWindow.clearTextfield();
 }
 
 win.addEventListener('open', function(){
 	setTimeout(function(){
-	SMSWindow.setMessages([
+	ChatWindow.setMessages([
 		{ image: '/rick.jpg', name: 'Rick Blalock', message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit' },
 		{ image: '/rick.jpg', name: 'Rick Blalock', message: 'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua' },
 		{ image: '/me.jpg', message: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur' },

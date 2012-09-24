@@ -9,7 +9,7 @@
 	top: '25dp',
 	bottom: '5dp',
 	left: '5dp',
-	image: '/ti.pedro.smsview/avatar.jpg'
+	image: '/ti.pedro.chatwindow/avatar.jpg'
 },
 "#message" : {
 	height: Ti.UI.SIZE,

@@ -1,0 +1,3 @@
+<Alloy>
+	<Require type="widget" src="ti.pedro.chatwindow" id="widget"/>
+</Alloy>

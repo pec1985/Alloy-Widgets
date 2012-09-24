@@ -7,7 +7,7 @@ var sendButton		= $.send_button;
 var delegate			= {};
 
 function newRow(image, message, name, date) {
-	var rowWidget = Alloy.createWidget('ti.pedro.smsview', 'messagerow', {
+	var rowWidget = Alloy.createWidget('ti.pedro.chatwindow', 'messagerow', {
 		text: message.replace(/^\s+/,'').replace(/\s+$/,''),
 		image: image,
 		name: name,

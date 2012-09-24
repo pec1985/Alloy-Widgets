@@ -18,7 +18,7 @@ function openWindow(win) {
 	
 }
 function openChat(e) {
-	openWindow(Alloy.createController('newwindow'));
+	openWindow(Alloy.createController('chatwindow'));
 }
 function openLockScreen(e) {
 	openWindow(Alloy.createController('lockscreen'));	
