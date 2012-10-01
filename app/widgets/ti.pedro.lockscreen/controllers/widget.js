@@ -5,13 +5,13 @@
  * @type {TYPE_CONFIRM}
  */
 exports.TYPE_CHANGE 		= TYPE_CHANGE = 3;
-exports.TYPE_NEW			= TYPE_NEW = 2;
+exports.TYPE_NEW		= TYPE_NEW = 2;
 exports.TYPE_CONFIRM		= TYPE_CONFIRM = 1;
 
 /**
  * All the needed variables
  */
-var WINDOW_WIDTH 					= null;
+var WINDOW_WIDTH 				= null;
 var BACK_BUTTON_TITLE 				= 'Back';
 var PASSCODE_TITLE_ENTER 			= L('enter_passcode', 'Enter passcode');
 var PASSCODE_TITLE_NEW 				= L('enter_new_passcode', 'Enter new passcode');
@@ -21,22 +21,22 @@ var PASSCODE_TITLE_FAILED 			= L('last_chance_before_resetting_the_app', 'Last c
 var ERROR_INCORRECT 				= L('auth_error_passcode', 'Incorrect passcode');
 var ERROR_DONT_MATCH 				= L('auth_error_passcode_mismatch', 'Passcode mismatch');
 
-var win				= $.getView();
-win.orientationModes=[Ti.UI.PORTRAIT];
+var win			= $.getView();
+win.orientationModes	= [Ti.UI.PORTRAIT]; // for android
 var mainView		= $.main_view;
 var hiddenTextField	= $.hidden_text_field;
 
 var currentPasscodeIndex	= 0;
 var currentPasscodeView		= {};
-var hasFailAttemps			= false;
-var resetPasscode			= false;
-var failedAttempts			= 0;
-var passCodeView			= [];
+var hasFailAttemps		= false;
+var resetPasscode		= false;
+var failedAttempts		= 0;
+var passCodeView		= [];
 // Default type is CONFIRM
-var firstStyle				= type = TYPE_CONFIRM;
-var attempts				= null;
+var firstStyle			= type = TYPE_CONFIRM;
+var attempts			= null;
 // Default passcode is 0000
-var newPasscode				= currentPasscode = originalPasscode = '0000';
+var newPasscode			= currentPasscode = originalPasscode = '0000';
 
 var backButton;
 var keypad;
@@ -227,19 +227,17 @@ function done(str){
 				resetPasscode = true;
 				// slide to the next screen
 				slideToNext();
-				return;
 
 			// but if the current passcode is NOT the same as the new passcode
 			// then the passcode is incorrent
 			} else if(newPasscode != currentPasscode){
 				exports.panic(ERROR_INCORRECT);
-				return;
 
 			// not sure about this one...
 			} else {
 				slideToNext();
-				return;
 			}
+			return;
 		// ------------------ we're trying to change the passcode ------------
 		case TYPE_CHANGE:
 			// We cannot change the passcode if the current is not the same as the one entered
@@ -272,18 +270,18 @@ function onTextFieldChange(e) {
 	// What to do? depends on the number of keys in the hidden textfield or the custom android keypad
 	switch(len){
 		case 0: currentPasscodeView.emptyValueOfField(1);
-				break;
+		break;
 		case 1: currentPasscodeView.changeValueOfField(1);
-				currentPasscodeView.emptyValueOfField(2);
-				break;
+			currentPasscodeView.emptyValueOfField(2);
+		break;
 		case 2: currentPasscodeView.changeValueOfField(2);
-				currentPasscodeView.emptyValueOfField(3);
-				break;
+			currentPasscodeView.emptyValueOfField(3);
+		break;
 		case 3: currentPasscodeView.changeValueOfField(3);
-				currentPasscodeView.emptyValueOfField(4);
-				break;
+			currentPasscodeView.emptyValueOfField(4);
+		break;
 		case 4: currentPasscodeView.changeValueOfField(4);
-				break;
+		break;
 	}
 	// If we have the four keys...
 	if(len >= 4){
