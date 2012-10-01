@@ -1,0 +1,32 @@
+".main_view" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+},
+"#month_container": {
+	backgroundColor: "red",
+	bottom: 0,
+	height: Ti.UI.SIZE
+},
+"Button" : {
+	width: '40dp',
+	height: '40dp'
+},
+"#date_label" : {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	textAlign:'center'
+},
+"#next" : {
+	right: '5dp',
+	title: '>'
+},
+"#prev" : {
+	left: '5dp',
+	title: '<'
+},
+".toolbar" : {
+	bottom: '240dp',
+	height: '44dp',
+	backgroundColor: '#ccc',
+	width: Ti.UI.FILL
+}

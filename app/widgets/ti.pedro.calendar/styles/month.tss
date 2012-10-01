@@ -1,0 +1,25 @@
+"#month" : {
+	height: '240dp',
+	layout: 'vertical',
+	bottom: 0,
+	width: Ti.Platform.displayCaps.platformWidth
+},
+".week" : {
+	left: -1,
+	right: -1,
+	height: '40dp',
+	layout: 'horizontal'
+},
+".day" : {
+	backgroundColor: 'transparent',
+	borderColor: '#222222',
+	borderWidth: 1,
+	left: 0,
+	height: Ti.UI.FILL,
+	font: {
+		fontSize: '20dp',
+		fontWeight: 'bold'
+	},
+	color: '#222222',
+	textAlign: 'center'
+}

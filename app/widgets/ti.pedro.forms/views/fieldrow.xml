@@ -1,0 +1,9 @@
+<Alloy>
+	<TableViewRow>
+		<Label platform="ios,android" />
+		<View class="label_holder">
+			<Label id="title" />
+		</View>
+		<TextField id="field" />
+	</TableViewRow>
+</Alloy>

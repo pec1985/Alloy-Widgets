@@ -1,0 +1,58 @@
+<Alloy>
+	<View id="month">
+		<View class="week" id="week1">
+			<Label class="day" id="day1" onClick="onDayClick"/>
+			<Label class="day" id="day2" onClick="onDayClick" />
+			<Label class="day" id="day3" onClick="onDayClick" />
+			<Label class="day" id="day4" onClick="onDayClick" />
+			<Label class="day" id="day5" onClick="onDayClick" />
+			<Label class="day" id="day6" onClick="onDayClick" />
+			<Label class="day" id="day7" onClick="onDayClick" />
+		</View>
+		<View class="week" id="week2">
+			<Label class="day" id="day8" onClick="onDayClick" />
+			<Label class="day" id="day9" onClick="onDayClick" />
+			<Label class="day" id="day10" onClick="onDayClick" />
+			<Label class="day" id="day11" onClick="onDayClick" />
+			<Label class="day" id="day12" onClick="onDayClick" />
+			<Label class="day" id="day13" onClick="onDayClick" />
+			<Label class="day" id="day14" onClick="onDayClick" />
+		</View>
+		<View class="week" id="week3">
+			<Label class="day" id="day15" onClick="onDayClick" />
+			<Label class="day" id="day16" onClick="onDayClick" />
+			<Label class="day" id="day17" onClick="onDayClick" />
+			<Label class="day" id="day18" onClick="onDayClick" />
+			<Label class="day" id="day19" onClick="onDayClick" />
+			<Label class="day" id="day20" onClick="onDayClick" />
+			<Label class="day" id="day21" onClick="onDayClick" />
+		</View>
+		<View class="week" id="week4">
+			<Label class="day" id="day22" onClick="onDayClick" />
+			<Label class="day" id="day23" onClick="onDayClick" />
+			<Label class="day" id="day24" onClick="onDayClick" />
+			<Label class="day" id="day25" onClick="onDayClick" />
+			<Label class="day" id="day26" onClick="onDayClick" />
+			<Label class="day" id="day27" onClick="onDayClick" />
+			<Label class="day" id="day28" onClick="onDayClick" />
+		</View> onClick="onDayClick"
+		<View class="week" id="week5">
+			<Label class="day" id="day29" onClick="onDayClick" />
+			<Label class="day" id="day30" onClick="onDayClick" />
+			<Label class="day" id="day31" onClick="onDayClick" />
+			<Label class="day" id="day32" onClick="onDayClick" />
+			<Label class="day" id="day33" onClick="onDayClick" />
+			<Label class="day" id="day34" onClick="onDayClick" />
+			<Label class="day" id="day35" onClick="onDayClick" />
+		</View>
+		<View class="week" id="week6">
+			<Label class="day" id="day36" onClick="onDayClick" />
+			<Label class="day" id="day37" onClick="onDayClick" />
+			<Label class="day" id="day38" onClick="onDayClick" />
+			<Label class="day" id="day39" onClick="onDayClick" />
+			<Label class="day" id="day40" onClick="onDayClick" />
+			<Label class="day" id="day41" onClick="onDayClick" />
+			<Label class="day" id="day42" onClick="onDayClick" />
+		</View>
+	</View>
+</Alloy>

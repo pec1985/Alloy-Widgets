@@ -1,4 +1,5 @@
 "Window" : {
+	backgroundColor: 'white',
 	layout: 'vertical'
 },
 "Button" : {

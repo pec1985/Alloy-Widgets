@@ -1,0 +1,5 @@
+<Alloy>
+	<Window>
+	<Require type="widget" src="ti.pedro.calendar" id="widget"/>
+	</Window>
+</Alloy>

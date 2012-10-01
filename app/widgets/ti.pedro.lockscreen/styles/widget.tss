@@ -3,8 +3,8 @@
 	backgroundColor: '#ccc'
 },
 "Window[platform=ios]" : {
-//	backgroundColor: 'stripped'
-	backgroundColor: 'white'
+	backgroundColor: 'stripped'
+//	backgroundColor: 'white'
 },
 "#hidden_text_field" : {
 	bottom: -100,

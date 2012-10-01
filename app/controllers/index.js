@@ -11,7 +11,7 @@ if(OS_IOS) {
 }
 function openWindow(win) {
 	if(OS_IOS) {
-		nav.open(win.getWindow());
+		nav.open(win.getWindow(nav));
 	} else {
 		win.open();
 	}

@@ -1,0 +1,11 @@
+<Alloy>
+	<View class="main_view">
+		<View class='toolbar'>
+			<Label id="date_label" />
+			<Button id="next" onClick="onClickNext"/>
+			<Button id="prev" onClick="onClickPrev" />
+		</View>
+		<View id="month_container">
+		</View>
+	</View>
+</Alloy>
