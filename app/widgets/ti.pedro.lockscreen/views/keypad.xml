@@ -17,7 +17,7 @@
 			<Button class="button" onClick="onKeyPressed">9</Button>
 		</View>
 		<View class="row">
-			<View class="button"></View>
+			<Button class="button" enabled="false">.</Button>
 			<Button class="button" onClick="onKeyPressed">0</Button>
 			<Button class="button" id="del" onClick="onKeyPressed" />
 		</View>

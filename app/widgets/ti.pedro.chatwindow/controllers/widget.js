@@ -1,11 +1,13 @@
+// Store in variables for easy access
 var win				= $.getView();
 var sendButton		= $.send_button;
-var textfieldBar 	= $.textfield_bar;
+var textfieldBar	= $.textfield_bar;
 var textfield		= $.textfield;
 var messageView		= $.message_view;
 var sendButton		= $.send_button;
-var delegate			= {};
+var delegate		= {};
 
+// Creates a new message row
 function newRow(image, message, name, date) {
 	var rowWidget = Alloy.createWidget('ti.pedro.chatwindow', 'messagerow', {
 		text: message.replace(/^\s+/,'').replace(/\s+$/,''),

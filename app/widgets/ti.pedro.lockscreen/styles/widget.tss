@@ -2,8 +2,13 @@
 	fullscreen: false,
 	backgroundColor: '#ccc'
 },
+"Window[platform=ios]" : {
+//	backgroundColor: 'stripped'
+	backgroundColor: 'white'
+},
 "#hidden_text_field" : {
-	bottom: 100,
+	bottom: -100,
+	width: 10, height:10,
 	keyboardType: Ti.UI.KEYBOARD_NUMBER_PAD
 },
 "#main_view" : {

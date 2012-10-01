@@ -5,7 +5,7 @@ var win = lockScreen.getWindow();
 lockScreen.setDelegate(self);
 lockScreen.setPasscode('1212');
 lockScreen.setNumberOfAttempts(4);
-lockScreen.setType(lockScreen.TYPE_CHANGE);
+lockScreen.setType(lockScreen.TYPE_NEW);
 
 // Delegate callbacks
 self.onSuccess = function(newPassCode) {

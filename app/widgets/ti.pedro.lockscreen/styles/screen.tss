@@ -6,7 +6,7 @@
 },
 "#header" : {
 	width: Ti.UI.FILL,
-	height: '100dp'
+	height: '75dp'
 },
 "#title" : {
 	text: 'TITLE'
@@ -27,6 +27,8 @@
 },
 ".passcode" : {
 	width: Ti.UI.FILL,
+},
+".passcode[platform=android]" : {
 	backgroundColor: 'navy'
 },
 ".box" : {
